@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Backend Engineer - Alejandra Larrañaga Altamirano</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/projects.css">
+<link rel="stylesheet" href="css/education.css">
+</head>
+<body>
+
+  <div class="scroll-spacer">
+    <div class="hero-pin">
+      <div class="stage" id="stage">
+        <canvas id="matrix"></canvas>
+        <div class="grid"></div>
+        <canvas id="particles"></canvas>
+        <div class="scan"></div>
+        <div class="vignette"></div>
+
+        <div class="hud">
+          <span>SYS.STATUS <span class="on">ONLINE</span></span>
+          <span>PORTFOLIO_V1 // <span class="on">2026</span></span>
+        </div>
+
+        <div class="content">
+          <div class="tag">backend engineer / laravel / aws</div>
+          <h1 id="titleWrap">
+            <span id="typed"></span>
+            <span class="glitch-layer cyan" id="gcyan"></span>
+            <span class="glitch-layer magenta" id="gmag"></span>
+          </h1>
+          <div class="role">10+ años construyendo sistemas que corren en producción</div>
+        </div>
+
+        <div class="scroll-hint">↓ scroll para explorar el sistema</div>
+      </div>
+    </div>
+  </div>
+
+  <section class="about-section" id="quien-eres">
+    <div class="road"></div>
+    <div class="road-marker" id="routeMarker"></div>
+    <div class="glitch-bg" id="glitchBg"></div>
+
+    <div class="about-heading">registro del sistema // trayectoria</div>
+
+    <div class="terminals-row">
+      <div class="terminal-col">
+        <div class="terminal" id="terminal">
+          <div class="terminal-bar">
+            <span class="dot dot-magenta"></span>
+            <span class="dot dot-cyan"></span>
+            <span class="dot dot-dim"></span>
+            <span class="terminal-title">alejandra@portfolio: ~</span>
+          </div>
+          <div class="terminal-body" id="terminalBody"></div>
+        </div>
+      </div>
+
+      <div class="terminal-col">
+        <div class="project-name">en qué estoy trabajando ahora</div>
+        <div class="terminal" id="proy-cabsitaxi">
+          <div class="terminal-bar">
+            <span class="dot dot-magenta"></span>
+            <span class="dot dot-cyan"></span>
+            <span class="dot dot-dim"></span>
+            <span class="terminal-title">cabsi-taxi — building...</span>
+          </div>
+          <div class="terminal-body" id="cabsitaxiBody"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section" id="proyectos-section">
+    <div class="about-heading">registro del sistema // proyectos</div>
+
+    <div class="project-block">
+      <div class="project-name">panel.feraltar.com — 2019</div>
+      <div class="terminal" id="proy-feraltar-panel">
+        <div class="terminal-bar">
+          <span class="dot dot-magenta"></span>
+          <span class="dot dot-cyan"></span>
+          <span class="dot dot-dim"></span>
+          <span class="terminal-title">panel.feraltar — ~</span>
+        </div>
+        <div class="terminal-body" id="feraltarPanelBody"></div>
+      </div>
+      <div class="screenshot-frame">
+        <div class="screenshot-bar">
+          <span class="dot dot-magenta"></span>
+          <span class="dot dot-cyan"></span>
+          <span class="dot dot-dim"></span>
+          <span class="screenshot-url">panel.feraltar.com</span>
+        </div>
+        <!-- Reemplaza este div por: <img src="assets/panel-feraltar.png" alt="Panel Feraltar"> -->
+        <div class="screenshot-placeholder">[ captura pendiente ]</div>
+      </div>
+    </div>
+
+    <div class="project-block">
+      <div class="project-name">feraltar.com — 2020</div>
+      <div class="terminal" id="proy-feraltar">
+        <div class="terminal-bar">
+          <span class="dot dot-magenta"></span>
+          <span class="dot dot-cyan"></span>
+          <span class="dot dot-dim"></span>
+          <span class="terminal-title">feraltar — ~</span>
+        </div>
+        <div class="terminal-body" id="feraltarBody"></div>
+      </div>
+      <div class="screenshot-frame">
+        <div class="screenshot-bar">
+          <span class="dot dot-magenta"></span>
+          <span class="dot dot-cyan"></span>
+          <span class="dot dot-dim"></span>
+          <span class="screenshot-url">feraltar.com</span>
+        </div>
+        <!-- Reemplaza este div por: <img src="assets/feraltar.png" alt="Feraltar"> -->
+        <div class="screenshot-placeholder">[ captura pendiente ]</div>
+      </div>
+    </div>
+
+    <div class="project-block">
+      <div class="project-name">cabsi.mx — 2020</div>
+      <div class="terminal" id="proy-cabsi">
+        <div class="terminal-bar">
+          <span class="dot dot-magenta"></span>
+          <span class="dot dot-cyan"></span>
+          <span class="dot dot-dim"></span>
+          <span class="terminal-title">cabsi — ~</span>
+        </div>
+        <div class="terminal-body" id="cabsiBody"></div>
+      </div>
+      <div class="screenshot-frame">
+        <div class="screenshot-bar">
+          <span class="dot dot-magenta"></span>
+          <span class="dot dot-cyan"></span>
+          <span class="dot dot-dim"></span>
+          <span class="screenshot-url">cabsi.mx</span>
+        </div>
+        <!-- Reemplaza este div por: <img src="assets/cabsi.png" alt="Cabsi"> -->
+        <div class="screenshot-placeholder">[ captura pendiente ]</div>
+      </div>
+    </div>
+
+    <div class="project-block">
+      <div class="project-name">cancun-airport.net/new_site — 2020</div>
+      <div class="terminal" id="proy-nuxt">
+        <div class="terminal-bar">
+          <span class="dot dot-magenta"></span>
+          <span class="dot dot-cyan"></span>
+          <span class="dot dot-dim"></span>
+          <span class="terminal-title">cancun-airport-net — ~</span>
+        </div>
+        <div class="terminal-body" id="nuxtBody"></div>
+      </div>
+      <div class="screenshot-frame">
+        <div class="screenshot-bar">
+          <span class="dot dot-magenta"></span>
+          <span class="dot dot-cyan"></span>
+          <span class="dot dot-dim"></span>
+          <span class="screenshot-url">cancun-airport.net</span>
+        </div>
+        <!-- Reemplaza este div por: <img src="assets/cancun-airport.png" alt="Cancun Airport"> -->
+        <div class="screenshot-placeholder">[ captura pendiente ]</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="education-section" id="educacion">
+    <div class="glitch-bg"></div>
+    <div class="about-heading">registro del sistema // educación</div>
+
+    <div class="edu-grid">
+      <div class="edu-card">
+        <span class="edu-tag">LICENCIATURA</span>
+        <h3>Desarrollo de Software</h3>
+        <p>Universidad Politécnica de Quintana Roo</p>
+        <span class="dates">Feb 2013 – Ago 2016</span>
+      </div>
+
+      <div class="edu-card">
+        <span class="edu-tag">MAESTRÍA</span>
+        <h3>Inteligencia Artificial</h3>
+        <p>Instituto Tecnológico de Monterrey</p>
+        <span class="dates">Ago 2022 – Presente</span>
+      </div>
+
+      <div class="edu-card">
+        <span class="edu-tag">CERTIFICACIÓN</span>
+        <h3>Alta Especialidad: Data Science, Visualización, AI & ML</h3>
+        <p>Tecnológico de Monterrey</p>
+        <span class="dates">2024</span>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/typing.js" defer></script>
+  <script src="js/matrix.js" defer></script>
+  <script src="js/particles.js" defer></script>
+  <script src="js/scroll.js" defer></script>
+  <script src="js/terminal.js" defer></script>
+  <script src="js/route.js" defer></script>
+  <script src="js/about.js" defer></script>
+  <script src="js/projects.js" defer></script>
+  <script src="js/education.js" defer></script>
+</body>
+</html>
