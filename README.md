@@ -15,7 +15,8 @@ Portafolio personal con estética cyberpunk: terminal en vivo, lluvia de código
 
 ## 🖥️ Vista previa
 
-_(agrega aquí un GIF o screenshot del sitio cuando lo tengas)_
+<img width="2956" height="1490" alt="image" src="https://github.com/user-attachments/assets/4b05652c-9dec-4a5a-9838-c3522868538e" />
+
 
 ## ✨ Features
 
