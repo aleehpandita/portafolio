@@ -1,4 +1,4 @@
-# ⚡ Alejandra Altamirano — Portfolio
+# ⚡ Alejandra Larrañaga Altamirano — Portfolio
 
 > Backend-focused Full Stack Engineer · 10+ años construyendo sistemas en producción
 
@@ -83,5 +83,5 @@ npx serve .
 
 ## 👩‍💻 Autora
 
-**Alejandra Altamirano** — Backend Engineer (Laravel, APIs, AWS)
+**Alejandra Larrañaga Altamirano** — Backend Engineer (Laravel, APIs, AWS)
 📩 alejandra.altamirano19@gmail.com
