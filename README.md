@@ -9,7 +9,7 @@ Portafolio personal con estética cyberpunk: terminal en vivo, lluvia de código
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![No frameworks](https://img.shields.io/badge/frameworks-none-00ffe1?style=flat)
 
-🔗 **Live:** ![aleehpandita.dev](https://aleehpandita.dev)
+🔗 **Live:** [aleehpandita.dev](https://aleehpandita.dev)
 
 ---
 
