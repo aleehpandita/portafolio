@@ -203,3 +203,7 @@ h1 .glitch-layer {
   letter-spacing: 2px;
   opacity: 0.5;
 }
+
+.matrix {
+  filter: drop-shadow(0 0 8px #00ffe1) drop-shadow(0 0 18px rgba(255,46,196,0.5));
+}

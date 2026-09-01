@@ -1,4 +1,4 @@
-# ⚡ Alejandra Altamirano — Portfolio
+# ⚡ Alejandra Larrañaga Altamirano — Portfolio
 
 > Backend-focused Full Stack Engineer · 10+ años construyendo sistemas en producción
 
