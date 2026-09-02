@@ -10,10 +10,28 @@
 <link rel="stylesheet" href="css/about.css">
 <link rel="stylesheet" href="css/projects.css">
 <link rel="stylesheet" href="css/education.css">
+<link rel="stylesheet" href="css/contact.css">
 <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
+  <!-- boton de contacto                        -->
+  <button class="contact-trigger" id="contactTrigger">           
+    <span class="type-text">contacto_</span>
+  </button>
 
+  <div class="contact-modal" id="contactModal">
+    <div class="contact-backdrop" id="contactBackdrop"></div>
+    <div class="terminal contact-terminal">                                 
+      <div class="terminal-bar">
+        <span class="dot dot-magenta"></span>
+        <span class="dot dot-cyan"></span>                          
+        <span class="dot dot-dim"></span>
+        <span class="terminal-title">contact.decrypted</span>
+        <button class="contact-close" id="contactClose">×</button>
+      </div>
+      <div class="terminal-body" id="contactBody"></div>
+    </div>
+  </div>
   <div class="scroll-spacer">
     <div class="hero-pin">
       <div class="stage" id="stage">
@@ -25,7 +43,7 @@
 
         <div class="hud">
           <span>SYS.STATUS <span class="on">ONLINE</span></span>
-          <span>PORTFOLIO_V1 // <span class="on">2026</span></span>
+          <span>PORTFOLIO_V2 // <span class="on">2026</span></span>
         </div>
 
         <div class="content">
@@ -209,6 +227,7 @@
   <script src="js/particles.js" defer></script>
   <script src="js/scroll.js" defer></script>
   <script src="js/terminal.js" defer></script>
+  <script src="js/contact.js" defer></script>
   <script src="js/route.js" defer></script>
   <script src="js/about.js" defer></script>
   <script src="js/projects.js" defer></script>

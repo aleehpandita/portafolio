@@ -78,7 +78,7 @@ npx serve .
 
 ## 🗺️ Roadmap
 
-- [ ] Agregar capturas reales a los marcos de proyecto (`[ captura pendiente ]`)
+- [x] Agregar capturas reales a los marcos de proyecto (`[ captura pendiente ]`)
 - [ ] Sección de contacto
 - [ ] Ajustar velocidad del marcador de ruta a gusto
 
